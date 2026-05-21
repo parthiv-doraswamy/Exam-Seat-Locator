@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        University Exam Seat Locator
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+            Chaitanya Bharathi Institute of Technology
+        </h1>
+
+        <p>
+            Examination Branch
+        </p>
+
+    </header>
+
+    <div class="container">
+
+        <h2>
+            Exam Seat Locator
+        </h2>
+
+        <p class="session">
+            Dec 2025 – Jan 2026 Examination
+        </p>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="hallTicket"
+                placeholder="Enter Hall Ticket Number"
+            >
+
+            <button onclick="findSeat()">
+                Search
+            </button>
+
+        </div>
+
+        <p id="message"></p>
+
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <td id="nameText">--</td>
+            </tr>
+
+            <tr>
+                <th>Hall Ticket</th>
+                <td id="ticketText">--</td>
+            </tr>
+
+            <tr>
+                <th>Exam Hall</th>
+                <td id="hallText">--</td>
+            </tr>
+
+            <tr>
+                <th>Seat Number</th>
+                <td id="seatText">--</td>
+            </tr>
+
+            <tr>
+                <th>Block</th>
+                <td id="blockText">--</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
